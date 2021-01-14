@@ -145,13 +145,13 @@ git clone https://github.com/shadowsocksr-backup/shadowsocksr
 cd ./shadowsocksr
 git checkout manyuser
 git pull
-if [ $1 == "develop" ];then
+if [[ $1 == "develop" ]];then
     git checkout stack/dev
 fi
 fi
 
 #Install SSR and SSR-Bash
-if [ -e /usr/local/bin/ssr ];then
+if [[ -e /usr/local/bin/ssr ]];then
 	if [[ $1 == "uninstall" ]];then
 		echo "开始卸载"
 		sleep 1s
