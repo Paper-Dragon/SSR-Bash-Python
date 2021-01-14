@@ -95,7 +95,7 @@ if [[ ${OS} == Ubuntu ]];then
 fi
 if [[ ${OS} == CentOS ]];then
 	yum install python screen curl -y
-	yum install python-setuptools -y && easy_install pip -y
+	yum install python-setuptools -y && easy_install pip
 	yum install git -y
 	yum install bc -y
 	yum install vnstat -y
