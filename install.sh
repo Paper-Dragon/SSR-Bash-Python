@@ -209,7 +209,7 @@ if [[ -d /usr/local/SSR-Bash-Python ]];then
     if [[ $yn == [yY] ]];then
         rm -rf /usr/local/SSR-Bash-Python
         cd /usr/local
-        git clone https://github.com/HeroSixo4/SSR-Bash-Python.git
+        git clone https://github.com/bigrain1993/SSR-Bash-Python.git
     fi
     cd /usr/local/SSR-Bash-Python
     git checkout master
@@ -220,7 +220,7 @@ if [[ -d /usr/local/SSR-Bash-Python ]];then
     fi
 else
     cd /usr/local
-    git clone https://github.com/HeroSixo4/SSR-Bash-Python.git
+    git clone https://github.com/bigrain1993/SSR-Bash-Python.git
     cd SSR-Bash-Python
     git checkout master
     if [[ $1 == "develop" ]];then
